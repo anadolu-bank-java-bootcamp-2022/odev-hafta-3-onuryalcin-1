@@ -24,7 +24,7 @@ public class DrawGraphicApplication implements CommandLineRunner {
 		);
 		ChartUtilities.saveChartAsPNG(
 				new File("result.png"), 
-				chartService.createChartFromCryptoData().getCandleStickChart(), 
+				chartService.createChartFromCryptoData().getCandleStickChart(),
 				1000, 1000);
 	}
 }
